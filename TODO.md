@@ -1,0 +1,4 @@
+- [x] Add touch-friendly button styles (min-height 44px)
+- [x] Improve readability on mobile with larger fonts
+- [x] Adjust padding and margins for mobile
+- [x] Ensure responsive images

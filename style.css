@@ -184,6 +184,60 @@ a:hover {
   color: var(--red-accent);
 }
 
+/* Price info styling */
+.price-info {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #28a745;
+  margin-top: 0.5rem;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  /* Touch-friendly buttons */
+  .btn {
+    min-height: 44px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  /* Improved readability */
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* Adjust section padding */
+  .py-5 {
+    padding: 2rem 0;
+  }
+
+  .py-4 {
+    padding: 1.5rem 0;
+  }
+
+  /* Ensure images are responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Adjust hero */
+  .hero {
+    padding: 2rem 0;
+  }
+
+  /* Navbar adjustments */
+  .navbar-brand .fw-bold {
+    font-size: 1rem;
+  }
+
+  .brand-logo-img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
