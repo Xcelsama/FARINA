@@ -1,10 +1,9 @@
-# TODO List for Image Optimization Across Mobile and Desktop
+# TODO for Adding Serving Suggestions Section
 
-## Previous Task (WhatsApp Links)
-- [x] Update Farina Swallow "Order via WhatsApp" button href to WhatsApp link with product-specific message
-- [x] Update Farina Almond Mix "Order via WhatsApp" button href to WhatsApp link with product-specific message
-- [x] Update Farina Tiger Nut Mix "Order via WhatsApp" button href to WhatsApp link with product-specific message
+## Steps:
 
-## Image Optimization Task
-- [x] Update style.css: Replace fixed heights for .card-img-top, #galleryCarousel .carousel-item img, and .hero-image with responsive clamp() values (e.g., height: clamp(200px, 30vh, 400px);) and adjust/remove conflicting media queries for uniformity
-- [x] Update index.html: Add loading="lazy" attribute to all <img> tags in the products section cards and the gallery carousel items
+- [x] Edit index.html: Insert a new section with id="serving-suggestions" immediately after the closing </section> of the products section (id="products"). This section will include a heading "Serving Suggestions" and a Bootstrap carousel displaying the five images: suggestion.jpg, suggestion1.jpg, sugestion2.jpg, Suggestions 3.jpg, and suggestion4.jpg.
+
+- [x] Test the page: Launch a local server and use browser_action to verify the new section and carousel functionality.
+
+- [x] Update TODO.md: Mark steps as completed and confirm the task is done.
