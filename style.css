@@ -45,7 +45,7 @@ body{
 .hero-image {
   flex: 1;
   min-width: 280px;
-  height: 300px;
+  height: 400px;
   background: url('img/main2.jpg') center/cover no-repeat;
   border-radius: 0.75rem;
 }
