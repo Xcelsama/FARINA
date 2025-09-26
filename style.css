@@ -150,7 +150,7 @@ a:focus{outline:3px solid rgba(200,16,46,0.12);outline-offset:3px}
   #galleryCarousel .carousel-item img {
     height: 300px;
   }
-  
+
   #galleryCarousel .carousel-caption {
     padding: 0.5rem;
     bottom: 0.5rem;
@@ -161,12 +161,12 @@ a:focus{outline:3px solid rgba(200,16,46,0.12);outline-offset:3px}
   #galleryCarousel .carousel-item img {
     height: 200px;
   }
-  
+
   /* Hide captions and controls on mobile to prevent 's' */
   #galleryCarousel .carousel-caption {
     display: none !important;
   }
-  
+
   .carousel-control-prev, .carousel-control-next {
     display: none;
   }
@@ -316,4 +316,3 @@ a:hover {
   max-height: 100%;
   object-fit: contain;
 }
-
