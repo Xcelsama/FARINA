@@ -47,7 +47,7 @@ body{
   min-width: 280px;
   height: 400px;
   background: url('img/main2.jpg') center/cover no-repeat;
-  border-radius: 0.75rem;
+  border-radius: 0.80rem;
 }
 
 .card-img-top{height:200px;object-fit:cover}
@@ -227,8 +227,8 @@ a:hover {
 @media (max-width: 768px) {
   /* Touch-friendly buttons */
   .btn {
-    min-height: 44px;
-    padding: 0.75rem 1.5rem;
+    min-height: 50px;
+    padding: 0.80rem 1.5rem;
     font-size: 1rem;
   }
 
