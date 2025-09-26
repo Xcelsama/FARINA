@@ -45,12 +45,12 @@ body{
 .hero-image {
   flex: 1;
   min-width: 280px;
-  height: 400px;
+  height: 300px;
   background: url('img/main2.jpg') center/cover no-repeat;
   border-radius: 0.80rem;
 }
 
-.card-img-top{height:200px;object-fit:cover}
+.card-img-top{height:clamp(200px, 30vh, 400px);object-fit:cover}
 .card{border:0}
 
 footer{font-size:.95rem}
@@ -67,7 +67,6 @@ footer{font-size:.95rem}
 
   .hero-image {
     width: 100%;
-    height: 200px;
     margin-top: 1rem;
   }
 }
@@ -112,7 +111,7 @@ a:focus{outline:3px solid rgba(200,16,46,0.12);outline-offset:3px}
 }
 
 #galleryCarousel .carousel-item img {
-  height: 400px;
+  height: clamp(200px, 30vh, 400px);
   object-fit: cover;
   width: 100%;
   transition: transform 0.6s ease-in-out, box-shadow 0.3s ease;
@@ -150,7 +149,7 @@ a:focus{outline:3px solid rgba(200,16,46,0.12);outline-offset:3px}
   #galleryCarousel .carousel-item img {
     height: 300px;
   }
-
+  
   #galleryCarousel .carousel-caption {
     padding: 0.5rem;
     bottom: 0.5rem;
@@ -161,7 +160,7 @@ a:focus{outline:3px solid rgba(200,16,46,0.12);outline-offset:3px}
   #galleryCarousel .carousel-item img {
     height: 200px;
   }
-
+  
   /* Hide captions and controls on mobile to prevent 's' */
   #galleryCarousel .carousel-caption {
     display: none !important;
