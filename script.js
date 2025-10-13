@@ -57,5 +57,20 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
     document.addEventListener('DOMContentLoaded', () => reveals.forEach(r => io.observe(r)));
 }
 
+// Show new product popup on page load
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = new bootstrap.Modal(document.getElementById('newProductModal'));
+    modal.show();
+
+    // Handle "Check it out" button click
+    document.getElementById('checkoutChinchinBtn').addEventListener('click', function() {
+        modal.hide();
+        const chinchinCard = document.querySelector('.card-title');
+        if (chinchinCard && chinchinCard.textContent.includes('Farina Chin Chin')) {
+            chinchinCard.closest('.card').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    });
+});
+
 
 
