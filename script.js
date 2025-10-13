@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('checkoutChinchinBtn').addEventListener('click', function() {
         modal.hide();
         const chinchinCard = document.querySelector('.card-title');
-        if (chinchinCard && chinchinCard.textContent.includes('Farina Chin Chin')) {
+        if (chinchinCard && chinchinCard.textContent.includes('Chitu-Ka Farina Crunchies')) {
             chinchinCard.closest('.card').scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
     });
