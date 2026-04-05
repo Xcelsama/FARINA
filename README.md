@@ -41,7 +41,10 @@ src/
 
 1. Push this folder to a GitHub repository
 2. Import the repo on [vercel.com](https://vercel.com)
-3. Deploy — Vercel auto-detects Next.js
+3. Set environment variables in Vercel dashboard:
+   - `WORKER_PASSWORD` — your worker access code
+   - `ADMIN_PASSWORD` — your admin access code
+4. Deploy — Vercel auto-detects Next.js
 
 ## 🖼️ Images
 
