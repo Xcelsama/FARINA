@@ -15,7 +15,7 @@ const gallerySlides = [
   { src: '/img/chinchin5.jpg', alt: 'Farina Crunchies', caption: { title: 'Super Healthy', desc: 'Combines the best of all farina variants' } },
   { src: '/img/chinchin6.jpg', alt: 'Farina Crunchies', caption: { title: 'Everyday Delight', desc: 'Gluten-free and wholesome' } },
   { src: '/img/chinchin7.jpg', alt: 'Farina Crunchies', caption: { title: 'All Mixes Combined', desc: 'Ultimate healthy snack experience' } },
-  { src: '/img/chinchin8.jpg', alt: 'Farina Crunchies', caption: { title: 'Fresh Crunch', desc: 'NAFDAC-approved and safe' } },
+  { src: '/img/chinchin8.jpg', alt: 'Farina Crunchies', caption: { title: 'Fresh Crunch', desc: 'NAFDAC & SON approved — certified safe' } },
 ];
 
 const servingSlides = [
@@ -83,13 +83,13 @@ export default function HomePage() {
         <div className="container">
           <div className="hero-grid">
             <div className="hero-content">
-              <div className="hero-badge">🇳🇬 Proudly Nigerian · NAFDAC Certified</div>
+              <div className="hero-badge">🇳🇬 Proudly Nigerian · NAFDAC & SON Certified</div>
               <h1 className="hero-title">
                 Wholesome <em>Farina</em> for Every Nigerian Home
               </h1>
               <p className="hero-desc">
-                We produce fibre-enriched Farina Swallow blends — made from 100% cassava extract,
-                cyanide-reduced, additive-free, and ready in just 3 minutes.
+                We produce premium fibre-enriched Farina Swallow blends — naturally safe, additive-free,
+                and certified to the highest Nigerian food standards. Ready in just 3 minutes.
               </p>
               <div className="hero-actions">
                 <Link href="#products" className="btn btn-primary">
@@ -101,6 +101,8 @@ export default function HomePage() {
               </div>
               <div className="hero-trust">
                 <span className="trust-badge"><i className="fas fa-shield-alt" style={{color:'var(--red)'}}></i> NAFDAC Approved</span>
+                <span className="trust-dot">·</span>
+                <span className="trust-badge"><i className="fas fa-certificate" style={{color:'var(--gold)'}}></i> SON Approved</span>
                 <span className="trust-dot">·</span>
                 <span className="trust-badge"><i className="fas fa-leaf" style={{color:'#22a163'}}></i> Gluten-Free</span>
                 <span className="trust-dot">·</span>
@@ -114,7 +116,7 @@ export default function HomePage() {
               </div>
               <div className="hero-float-card top-left">
                 <span className="float-icon">🌾</span>
-                <span>100% Cassava Extract</span>
+                <span>Naturally Wholesome</span>
               </div>
               <div className="hero-float-card bottom-right">
                 <span className="float-icon">✅</span>
@@ -138,12 +140,12 @@ export default function HomePage() {
               <div className="stat-label">Prep Time</div>
             </div>
             <div className="stat-item">
-              <div className="stat-num">0%</div>
-              <div className="stat-label">Preservatives</div>
+              <div className="stat-num">2x</div>
+              <div className="stat-label">NAFDAC & SON Certified</div>
             </div>
             <div className="stat-item">
-              <div className="stat-num">100%</div>
-              <div className="stat-label">Cassava Extract</div>
+              <div className="stat-num">0%</div>
+              <div className="stat-label">Preservatives</div>
             </div>
           </div>
         </div>
@@ -158,34 +160,37 @@ export default function HomePage() {
             </div>
             <div className="reveal reveal-delay-1">
               <span className="section-label">What is Farina Swallow?</span>
-              <h2 className="section-title">A Modern, Safer Swallow — Rooted in Tradition</h2>
+              <h2 className="section-title">A Premium Swallow — Safe, Nutritious & Certified</h2>
               <p style={{color:'var(--muted)', lineHeight:'1.75', marginBottom:'0.75rem'}}>
-                Farina Swallow is a modern, safe, and quick alternative to traditional cassava swallow foods. It is made from 100% cassava extract, enriched with pure fibre, and processed to eliminate harmful compounds such as cyanide.
+                Farina Swallow is a modern, premium alternative to traditional swallow foods. Crafted from
+                finest cassava, enriched with pure dietary fibre, and processed under strict hygienic conditions
+                — it delivers the taste and texture Nigerians love, with superior nutrition.
               </p>
               <p style={{color:'var(--muted)', lineHeight:'1.75'}}>
-                All our Farina products are cyanide-free, additive-free, with no preservatives added, and NAFDAC-approved for safety. They support digestion, weight control, and blood sugar management.
+                Every Chitu-Ka Farina product is <strong>NAFDAC-certified</strong> and <strong>SON-approved</strong>,
+                guaranteeing quality and safety you can trust for your entire family.
               </p>
 
               <div className="benefits-grid">
                 <div className="benefit-card">
                   <div className="benefit-icon">🛡️</div>
-                  <div className="benefit-title">Cyanide-Reduced</div>
-                  <div className="benefit-text">Processed to safely reduce harmful compounds found in raw cassava.</div>
+                  <div className="benefit-title">Cyanide-Free</div>
+                  <div className="benefit-text">Expertly processed to be completely safe — pure, clean nourishment for your family.</div>
                 </div>
                 <div className="benefit-card">
                   <div className="benefit-icon">🌿</div>
                   <div className="benefit-title">Fibre Enriched</div>
-                  <div className="benefit-text">Added fibre for improved digestion, satiety, and blood sugar control.</div>
+                  <div className="benefit-text">Added dietary fibre for improved digestion, lasting satiety, and blood sugar balance.</div>
                 </div>
                 <div className="benefit-card">
                   <div className="benefit-icon">⚡</div>
                   <div className="benefit-title">Quick Prep</div>
-                  <div className="benefit-text">Ready in just 3 minutes — stir into boiling water until smooth.</div>
+                  <div className="benefit-text">Ready in just 3 minutes — smooth, delicious swallow with minimal effort.</div>
                 </div>
                 <div className="benefit-card">
                   <div className="benefit-icon">🌾</div>
                   <div className="benefit-title">Gluten-Free</div>
-                  <div className="benefit-text">Naturally gluten-free, suitable for a wide range of diets.</div>
+                  <div className="benefit-text">Naturally gluten-free, suitable for diverse dietary needs and lifestyles.</div>
                 </div>
               </div>
 
@@ -206,22 +211,22 @@ export default function HomePage() {
               {
                 name: 'Farina Swallow (Plain)',
                 icon: '🍚',
-                desc: 'Designed to fuel your day with essential nutrients. Naturally gluten-free and fibre-enriched for better digestion, slower sugar absorption, and weight management.',
+                desc: 'Pure, clean energy for your day. Fibre-enriched for better digestion, steady energy release, and weight management. The wholesome everyday swallow your family deserves.',
               },
               {
                 name: 'Farina Almond Mix',
                 icon: '🥜',
-                desc: 'Boosts protein, healthy fats, and micronutrients (vitamin E & magnesium) for improved satiety. Great for health-conscious consumers seeking richer nutrition.',
+                desc: 'Elevated with premium almond for extra protein, healthy fats, vitamin E and magnesium. A sophisticated blend for health-conscious consumers who want more from their meal.',
               },
               {
                 name: 'Farina Tiger Nut Mix',
                 icon: '🌰',
-                desc: 'Rich in fibre for digestion, weight control, and blood sugar management. Low glycemic index, aids cholesterol control, provides healthy fats.',
+                desc: 'Naturally high in fibre with a distinctive nutty flavour. Low glycemic index, supports healthy cholesterol, and keeps you fuller for longer — great for weight management.',
               },
               {
-                name: 'General Benefits',
+                name: 'All Variants',
                 icon: '✅',
-                desc: '100% organic, gluten-free variants that help with digestion, weight watching, and sugar control. Fibre-enriched to reduce glycemic load.',
+                desc: 'Every variant is NAFDAC & SON approved, gluten-free, additive-free, and made with no preservatives. Certified quality you can taste in every bite.',
               },
             ].map((item) => (
               <div key={item.name} className="benefit-card reveal" style={{background:'white', border:'1px solid var(--border)'}}>
@@ -246,7 +251,7 @@ export default function HomePage() {
             <div>
               <h3 style={{fontFamily:'var(--font-display)', color:'white', marginBottom:'0.5rem'}}>Who It's For</h3>
               <p style={{color:'rgba(255,255,255,0.75)', fontSize:'0.92rem', lineHeight:'1.7'}}>
-                Our products are NAFDAC-certified, sold nationwide in moisture-protective branded packaging.
+                Our products are NAFDAC-certified and SON-approved, sold nationwide in moisture-protective branded packaging.
               </p>
             </div>
             <ul style={{listStyle:'none', display:'flex', flexDirection:'column', gap:'0.5rem'}}>
@@ -311,7 +316,7 @@ export default function HomePage() {
           <div className="about-story reveal">
             <div className="story-title">🏷️ About Chitu-Ka Foods</div>
             <p>Chitu-ka Foods is a flagship product line of Fari Fabulous Global Concept Limited, a faith-driven food production company committed to promoting health and wellness through nutritious farina products. We believe that good food is a gift from God and a source of strength for families and communities.</p>
-            <p>Guided by faith and excellence, we produce and package natural farina (kPOKPO Garri) blends that nourish the body and reflect integrity in every detail. Our Farina swallow is NAFDAC-certified and upholds the highest standards of hygiene, safety, and quality.</p>
+            <p>Guided by faith and excellence, we produce and package premium farina (kPOKPO Garri) blends that nourish the body and reflect integrity in every detail. Our Farina Swallow is both <strong style={{color:'var(--earth-light)'}}>NAFDAC-certified</strong> and <strong style={{color:'var(--earth-light)'}}>SON-approved</strong> (Standards Organisation of Nigeria), giving you complete confidence in every pack.</p>
             <p>At Chitu-ka Foods, we combine traditional wisdom with modern standards to create foods that bring families together and inspire healthy living.</p>
           </div>
         </div>

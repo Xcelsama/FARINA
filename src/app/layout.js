@@ -2,7 +2,7 @@ import '../styles/globals.css';
 
 export const metadata = {
   title: 'CHITU-KA FOODS — Farina Swallow',
-  description: 'Discover fibre-enriched Farina Swallow blends – safe, quick, and nutritious. Proudly Nigerian. NAFDAC certified.',
+  description: 'Discover fibre-enriched Farina Swallow blends – safe, quick, and nutritious. Proudly Nigerian. NAFDAC certified & SON approved.',
   openGraph: {
     title: 'CKF Farina Swallow – Healthy Foods',
     description: 'Discover fibre-enriched Farina Swallow blends – safe, quick, and nutritious. Proudly Nigerian.',
