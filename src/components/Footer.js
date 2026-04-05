@@ -43,8 +43,9 @@ export default function Footer() {
               <li><a href="mailto:chitukafoodsng@gmail.com">chitukafoodsng@gmail.com</a></li>
               <li style={{color:'rgba(255,255,255,0.4)', fontSize:'0.85rem', lineHeight:'1.5'}}>EBIS New Road, Yenagoa, Bayelsa State, Nigeria</li>
             </ul>
-            <div style={{marginTop:'1.25rem'}}>
-              <span className="nafdac-badge">✓ NAFDAC Approved</span>
+            <div style={{marginTop:'1.25rem', display:'flex', gap:'0.5rem', flexWrap:'wrap'}}>
+              <span className="nafdac-badge">✓ NAFDAC Certified</span>
+              <span className="nafdac-badge">✓ SON Approved</span>
             </div>
           </div>
         </div>
