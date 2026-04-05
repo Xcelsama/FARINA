@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 
 export const metadata = {
-  title: 'CHITU-KA FOODS — Farina Swallow',
+  title: 'CHITU-KA FOODS',
   description: 'Discover premium fibre-enriched Farina Swallow blends – cyanide-free, additive-free, and certified by NAFDAC & SON. Wholesome Nigerian food for every home. Ready in 3 minutes.',
   metadataBase: new URL('https://ckf-farina-swallow.vercel.app'),
   icons: {
@@ -10,7 +10,7 @@ export const metadata = {
     apple: '/img/logo.jpg',
   },
   openGraph: {
-    title: 'CHITU-KA FOODS — Premium Farina Swallow',
+    title: 'CHITU-KA FOODS',
     description: 'Premium fibre-enriched Farina Swallow blends – cyanide-free, additive-free, and certified by NAFDAC & SON. Wholesome Nigerian food ready in 3 minutes.',
     url: 'https://ckf-farina-swallow.vercel.app',
     siteName: 'CHITU-KA FOODS',
