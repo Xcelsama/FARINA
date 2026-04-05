@@ -1,20 +1,35 @@
 import '../styles/globals.css';
 
 export const metadata = {
-  title: 'CHITU-KA FOODS',
-  description: 'Discover fibre-enriched Farina Swallow blends – safe, quick, and nutritious. Proudly Nigerian. NAFDAC certified & SON approved.',
+  title: 'CHITU-KA FOODS — Farina Swallow',
+  description: 'Discover premium fibre-enriched Farina Swallow blends – cyanide-free, additive-free, and certified by NAFDAC & SON. Wholesome Nigerian food for every home. Ready in 3 minutes.',
+  metadataBase: new URL('https://ckf-farina-swallow.vercel.app'),
+  icons: {
+    icon: '/img/logo.jpg',
+    shortcut: '/img/logo.jpg',
+    apple: '/img/logo.jpg',
+  },
   openGraph: {
-    title: 'CKF Farina Swallow  Healthy Foods',
-    description: 'Discover fibre-enriched Farina Swallow blends  safe, quick, and nutritious. Proudly Nigerian.',
+    title: 'CHITU-KA FOODS — Premium Farina Swallow',
+    description: 'Premium fibre-enriched Farina Swallow blends – cyanide-free, additive-free, and certified by NAFDAC & SON. Wholesome Nigerian food ready in 3 minutes.',
     url: 'https://ckf-farina-swallow.vercel.app',
+    siteName: 'CHITU-KA FOODS',
     type: 'website',
-    images: [{ url: 'https://ckf-farina-swallow.vercel.app/img/logo.jpg', width: 1078, height: 808 }],
+    locale: 'en_NG',
+    images: [
+      {
+        url: '/img/logo.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'CHITU-KA FOODS — Premium Farina Swallow, NAFDAC & SON Approved',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'CKF Farina Swallow – Healthy Foods',
-    description: 'Discover fibre-enriched Farina Swallow blends – safe, quick, and nutritious. Proudly Nigerian.',
-    images: ['https://ckf-farina-swallow.vercel.app/img/main3.png'],
+    title: 'CHITU-KA FOODS — Premium Farina Swallow',
+    description: 'Premium fibre-enriched Farina Swallow blends – cyanide-free, additive-free, NAFDAC & SON certified. Ready in 3 minutes.',
+    images: ['/img/logo.jpg'],
   },
 };
 
