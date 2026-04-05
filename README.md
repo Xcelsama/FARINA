@@ -83,4 +83,3 @@ Required images:
 - ✅ Contact section with WhatsApp CTA
 - ✅ Open Graph + Twitter card metadata
 - ✅ NAFDAC badge
-- ✅ `/api/config` route for secure password delivery
